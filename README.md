@@ -23,7 +23,7 @@ Identify key sales and profit drivers, analyse customer purchase behaviour and p
 
 - 1,000 receipts
 - 2,038 sales line items
-- 258 product names
+- 275 product names
 - Analysis period: 25 July — 24 August 2026
 
 ## Key metrics
