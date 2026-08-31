@@ -67,4 +67,4 @@ Identify key sales and profit drivers, analyse customer purchase behaviour and p
 
 ## Note
 
-Some cost prices were estimated using business assumptions. Financial results should be validated against actual purchase costs.
+Some cost prices were estimated using business assumptions.
