@@ -1,16 +1,16 @@
-# Retail Sales Analysis
+# Анализ продаж
 
-## Project overview
+## Обзор проекта
 
-Analysis of retail sales data from the MySklad system for the period from 25 July to 24 August 2026.
+Анализ данных о розничных продажах из системы «МойСклад» за период с 25 июля по 24 августа 2026 года.
 
-The project explores sales performance, product profitability, customer purchasing behaviour and time-based demand patterns.
+Проект исследует эффективность продаж, прибыльность товаров, покупательское поведение и временные закономерности спроса.
 
-## Business task
+## Бизнес-задача
 
-Identify key sales and profit drivers, analyse customer purchase behaviour and provide recommendations for pricing, assortment management and sales growth.
+Выявить ключевые факторы продаж и прибыли, проанализировать покупательское поведение и сформулировать рекомендации по ценообразованию, управлению ассортиментом и увеличению продаж.
 
-## Tools
+## Инструменты
 
 - Python
 - Pandas
@@ -19,52 +19,52 @@ Identify key sales and profit drivers, analyse customer purchase behaviour and p
 - MySklad API
 - Jupyter Notebook
 
-## Dataset
+## Датасет
 
-- 1,000 receipts
-- 2,038 sales line items
-- 275 product names
-- Analysis period: 25 July — 24 August 2026
+- 1 000 чеков
+- 2 038 товарных позиций
+- 275 наименований товаров
+- Период анализа: 25 июля — 24 августа 2026 года
 
-## Key metrics
+## Ключевые метрики
 
-| Metric | Value |
+| Метрика | Значение |
 |---|---:|
-| Revenue | 698,311.54 RUB |
-| Gross profit | 195,147.60 RUB |
-| Gross margin | 27.95% |
-| Number of receipts | 1,000 |
-| Average receipt | 698.31 RUB |
-| Average items per receipt | 2.04 |
+| Выручка | 698 311,54 ₽ |
+| Валовая прибыль | 195 147,60 ₽ |
+| Валовая маржинальность | 27,95% |
+| Количество чеков | 1 000 |
+| Средний чек | 698,31 ₽ |
+| Среднее количество товаров в чеке | 2,04 |
 
-## Analysis performed
+## Проведённый анализ
 
-- Data collection from MySklad API
-- Data cleaning and cost-price preparation
-- Revenue, profit and margin calculation
-- Daily, weekday and hourly sales analysis
-- Best-selling and most profitable products
-- Product-pair analysis
-- Discount analysis
-- ABC analysis by revenue and profit
+- Сбор данных через API «МойСклад»
+- Очистка данных и подготовка себестоимости
+- Расчёт выручки, прибыли и маржинальности
+- Анализ продаж по дням, дням недели и часам
+- Анализ самых продаваемых и наиболее прибыльных товаров
+- Анализ товарных пар
+- Анализ скидок
+- ABC-анализ по выручке и прибыли
 
-## Key findings
+## Основные выводы
 
-- Revenue leaders are not always profit leaders.
-- Some high-revenue products have very low or zero calculated profit and require a pricing and cost review.
-- Products such as beef tenderloin and chicken wings kebab show high profitability and are candidates for promotion.
-- Weekends generate the highest revenue in the analysed period.
-- Discounts are almost not used, which creates an opportunity to test loyalty offers.
-- Popular product pairs can be used for bundles and cross-selling.
+- Лидеры по выручке не всегда являются лидерами по прибыли.
+- Некоторые товары с высокой выручкой имеют очень низкую или нулевую расчётную прибыль и требуют проверки цены и себестоимости.
+- Такие товары, как говяжья вырезка и шашлык из куриных крыльев, показывают высокую прибыльность и могут рассматриваться для продвижения.
+- Наибольшая выручка в анализируемом периоде приходится на выходные дни.
+- Скидки практически не используются, что создаёт возможность протестировать программы лояльности.
+- Часто покупаемые товарные пары можно использовать для создания комплектов и кросс-продаж.
 
-## Business recommendations
+## Бизнес-рекомендации
 
-1. Review prices and costs for high-revenue, low-profit products.
-2. Ensure stock availability of key products on weekends and during peak hours.
-3. Promote high-margin products.
-4. Use frequent product pairs for bundled offers and cross-selling.
-5. Test discounts or a loyalty programme to increase repeat purchases and average receipt value.
+1. Пересмотреть цены и себестоимость товаров с высокой выручкой и низкой прибылью.
+2. Обеспечить наличие ключевых товаров в выходные и часы пикового спроса.
+3. Продвигать товары с высокой маржинальностью.
+4. Использовать часто покупаемые товарные пары для создания комплектов и кросс-продаж.
+5. Протестировать скидки или программу лояльности для увеличения повторных покупок и среднего чека.
 
-## Note
+## Примечание
 
-Some cost prices were estimated using business assumptions.
+Для некоторых товаров себестоимость была рассчитана приблизительно на основе бизнес-допущений.
